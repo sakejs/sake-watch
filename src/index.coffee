@@ -8,6 +8,5 @@ module.exports = (opts = {}) ->
   args += 'b' if opts.bare
   args += 'm' if opts.sourceMap
 
-  (task) ->
-    task 'watch', 'watch for changes and recompile project', ->
-      exec "coffee #{args} -o #{opts.lib} #{opts.src}"
+  task 'watch', 'watch for changes and recompile project', ->
+    exec "coffee #{args} -o #{opts.lib} #{opts.src}"
