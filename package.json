@@ -1,6 +1,6 @@
 {
   "name": "cake-watch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Adds file watching-related tasks to your Cakefile.",
   "main": "lib/",
   "directories": {
