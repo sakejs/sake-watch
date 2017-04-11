@@ -1,4 +1,4 @@
-module.exports = (opts = {}) ->
+export default (opts = {}) ->
   opts.lib       = 'lib/'
   opts.src       = 'src/'
   opts.sourceMap ? true
