@@ -11,7 +11,8 @@ catch err
 task 'build', 'Build project', ->
   bundle.write
     entry:  'src/index.coffee'
-    format: 'cli'
     compilers:
-      coffee:
-        version: 1
+      coffee: version: 1
+
+task 'clean', 'clean project', ->
+  exec 'rm -rf lib'
