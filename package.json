@@ -10,7 +10,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "coffee-script": "1.10.0",
+    "coffee-script": "1.12.5",
     "sake-build": "0.0.3",
     "sake-bundle": "0.4.11",
     "sake-outdated": "0.1.20",
