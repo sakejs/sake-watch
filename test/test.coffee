@@ -1,6 +1,6 @@
 exec = require 'executive'
 
-describe 'cake-watch', ->
+describe 'sake-watch', ->
   it 'should add tasks', ->
-    {stdout} = yield exec 'cake', cwd: __dirname
+    {stdout} = yield exec 'sake', cwd: __dirname
     stdout.should.contain 'watch'
