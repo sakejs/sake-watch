@@ -1,3 +1,0 @@
-require 'shortcake'
-
-use require '../'
