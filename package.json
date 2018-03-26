@@ -9,13 +9,13 @@
     "src"
   ],
   "devDependencies": {
-    "coffeescript": "^1.12.6",
-    "sake-bundle": "^0.5.3",
-    "sake-cli": "^0.5.11",
-    "sake-core": "^1.4.10",
-    "sake-outdated": "^0.1.27",
-    "sake-publish": "^0.1.16",
-    "sake-test": "^0.1.5",
+    "coffeescript": "^2.2.3",
+    "sake-bundle": "^0.6.7",
+    "sake-cli": "^0.6.5",
+    "sake-core": "^1.6.2",
+    "sake-outdated": "^0.2.2",
+    "sake-publish": "^0.1.17",
+    "sake-test": "^0.2.1",
     "sake-version": "^0.1.19"
   },
   "scripts": {
