@@ -1,6 +1,6 @@
 {
   "name": "sake-watch",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Add file watching-related tasks to your Sakefile",
   "main": "lib/sake-watch.js",
   "module": "lib/sake-watch.mjs",
