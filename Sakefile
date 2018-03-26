@@ -9,10 +9,7 @@ try
 catch err
 
 task 'build', 'Build project', ->
-  bundle.write
-    entry:  'src/index.coffee'
-    compilers:
-      coffee: version: 1
+  bundle.write entry:  'src/index.coffee'
 
 task 'clean', 'clean project', ->
   exec 'rm -rf lib'
